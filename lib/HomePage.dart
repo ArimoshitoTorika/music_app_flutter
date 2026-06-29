@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/Search.dart';
+import 'package:music_app/Widgets/home_recent_card.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -113,240 +114,45 @@ class HomePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   Row(
-                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(width: 20),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_tayler),
-                            ),
-                            SizedBox(width: 10),
-                            Text(
-                              "ABC Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      HomeRecentCard(cardImage: _tayler, cardTitle: "Test"),
                       SizedBox(width: 10),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_daftpunk),
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "POP Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
+                      HomeRecentCard(cardImage: _daftpunk, cardTitle: "Daft Punk",
                       ),
                     ],
                   ),
                   SizedBox(height: 10),
                   Row(
-                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(width: 20),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_tayler),
-                            ),
-                            SizedBox(width: 10),
-                            Text(
-                              "ABC Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      HomeRecentCard(cardImage: _tayler, cardTitle: "Test"),
                       SizedBox(width: 10),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_daftpunk),
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "POP Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
+                      HomeRecentCard(cardImage: _daftpunk, cardTitle: "Daft Punk",
                       ),
                     ],
                   ),
                   SizedBox(height: 10),
                   Row(
-                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(width: 20),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_tayler),
-                            ),
-                            SizedBox(width: 10),
-                            Text(
-                              "ABC Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      HomeRecentCard(cardImage: _tayler, cardTitle: "Test"),
                       SizedBox(width: 10),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_daftpunk),
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "POP Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
+                      HomeRecentCard(cardImage: _daftpunk, cardTitle: "Daft Punk",
                       ),
                     ],
                   ),
                   SizedBox(height: 10),
                   Row(
-                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(width: 20),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_tayler),
-                            ),
-                            SizedBox(width: 10),
-                            Text(
-                              "ABC Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
+                      HomeRecentCard(cardImage: _tayler, cardTitle: "Test"),
                       SizedBox(width: 10),
-                      Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey.withAlpha(50),
-                        ),
-                        width: 185,
-                        height: 60,
-                        child: Row(
-                          children: [
-                            ClipRRect(
-                              borderRadius: BorderRadius.circular(8),
-                              child: Image.network(_daftpunk),
-                            ),
-                            SizedBox(width: 5),
-                            Text(
-                              "POP Mix",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight(500),
-                              ),
-                            ),
-                          ],
-                        ),
+                      HomeRecentCard(cardImage: _daftpunk, cardTitle: "Daft Punk",
                       ),
                     ],
                   ),
+                  SizedBox(height: 10),
                   SizedBox(height: 30),
                   Row(
                     children: [
@@ -389,7 +195,130 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                               Text(
-                                "ABJBJBsf, dshfbsjdbfsd, dsdjfnsdkdbfdsbfjsbdfjbsdnfsdfs",
+                                "Laufey, Rex Orange County, Beabadoobe, The Marias, Tayler ,The Creator",
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        SizedBox(
+                          height: 200,
+                          width: 160,
+                          child: Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.green,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                height: 160,
+                                width: 160,
+                                child: Stack(
+                                  children: [
+                                    Text("data"),
+                                    Padding(
+                                      padding: const EdgeInsets.only(
+                                        top: 50,
+                                        left: 0,
+                                        right: 65,
+                                        bottom: 50,
+                                      ),
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(
+                                          100,
+                                        ),
+                                        child: Image.network(
+                                          _daftpunk,
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.only(
+                                        top: 35,
+                                        left: 35,
+                                        right: 35,
+                                      ),
+                                      child: ClipRRect(
+                                        borderRadius: BorderRadius.circular(
+                                          100,
+                                        ),
+                                        child: Image.network(_tayler),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Text(
+                                "Laufey, Rex Orange County, Beabadoobe, The Marias, Tayler ,The Creator",
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        SizedBox(
+                          height: 200,
+                          width: 160,
+                          child: Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.green,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                height: 160,
+                                width: 160,
+                                child: Stack(
+                                  children: [
+                                    Text("data"),
+                                    Center(
+                                      child: Image.network(_tayler, width: 40),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Text(
+                                "Laufey, Rex Orange County, Beabadoobe, The Marias, Tayler ,The Creator",
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ),
+                        SizedBox(width: 20),
+                        SizedBox(
+                          height: 200,
+                          width: 160,
+                          child: Column(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.green,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                height: 160,
+                                width: 160,
+                                child: Stack(
+                                  children: [
+                                    Text("data"),
+                                    Center(
+                                      child: Image.network(
+                                        _daftpunk,
+                                        width: 40,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Text(
+                                "Laufey, Rex Orange County, Beabadoobe, The Marias, Tayler ,The Creator",
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 style: TextStyle(color: Colors.white),
